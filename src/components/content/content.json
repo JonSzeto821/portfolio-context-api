@@ -1,0 +1,21 @@
+"about": {
+  "name": "Jon Szeto",
+  "image": "[insert image file]",
+  "bio": {
+    "p1":
+      "Aspiring Front End Engineer, with Full Stack capabilities. I have prior experience on a Front End development team, as a Systems Analyst, at a Financial Institution. Following that, I transitioned to a customer facing role, as an Integration Manager, at an Education Technology company.",
+    "p2":
+      "I coordinated with software integration teams from publishers and for-profit institutions. I instructed teams over the usage of the company’s APIs and workflows for product models. This piqued my interest into understanding how APIs are built. With this and a desire to be back on the development side, I found myself going down the engineering route.",
+    "p3":
+      "I am currently based in Raleigh, NC. Other interests of mine outside of development are: attending  music concerts and festivals, over anaylzying my favorite soccer team (Liverpool FC), and powerlifting."
+  },
+  "links": {
+    "github": "https://github.com/JonSzeto821",
+    "linkedin": "https://linkedin.com/in/JonathanSzeto",
+    "contact": {
+      "email": "mailto:JonSzeto821@gmail.com"
+    }
+  },
+  "phone": "(617) 429-3618",
+  "location": "Raleigh/Durham, NC"
+}
