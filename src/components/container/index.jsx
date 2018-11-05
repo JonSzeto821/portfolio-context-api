@@ -1,12 +1,20 @@
 import React from 'react';
-import Test from '../test';
+import About from '../templates/about';
+import { Consumer } from '../content/context';
 
 const Container = () => {
   return(
-    <React.Fragment>
-      <h2>Container Component</h2>
-      <Test />
-    </React.Fragment>
+    <Consumer>
+      {value => {
+        console.log('apple', value);
+        return (
+          <React.Fragment>
+            <h1>{value.about.name}</h1>
+            <About />
+          </React.Fragment>
+        );
+      }}
+    </Consumer>
   );
 }
 

@@ -10,7 +10,6 @@ class App extends Component {
       <Provider>
         <Router>
           <React.Fragment>
-            <h1>New Portfolio with Context API</h1>
             <Switch>
               <Route exact path='/' component={Container} />
             </Switch>

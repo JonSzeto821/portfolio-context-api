@@ -1,12 +1,16 @@
 import React, { Component } from 'react';
+// import axios from 'axios';
+import { about, project, icons } from './content.json';
 
 const MyContext = React.createContext();
 
 export class Provider extends Component {
+
   state = {
-    header: `Search for a Hero`,
-    name: 'Jon Szeto',
-    image: 'Image',
+    about: about,
+    projects: project,
+    icons: icons,
+    image: 'https://i.pinimg.com/originals/3b/13/7d/3b137da67bd82e35cb2136ebf894ea5d.jpg',
   };
 
   componentDidMount() {
