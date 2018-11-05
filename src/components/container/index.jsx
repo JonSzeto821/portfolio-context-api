@@ -1,5 +1,6 @@
 import React from 'react';
 import About from '../templates/about';
+import Contact from '../templates/contact';
 import { Consumer } from '../content/context';
 
 const Container = () => {
@@ -11,6 +12,7 @@ const Container = () => {
           <React.Fragment>
             <h1>{value.about.name}</h1>
             <About />
+            <Contact />
           </React.Fragment>
         );
       }}

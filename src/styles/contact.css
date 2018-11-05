@@ -1,0 +1,115 @@
+.logoSize {
+  height: 32px;
+  width: 32px;
+  padding-right: 5px;
+}
+
+.contact-description li {
+  text-align: center;
+  font-style: italic;
+}
+
+#contactContainer {
+  background-color: #f2f2f2;
+  color: #696969;
+  text-align: center;
+  min-height: 70vh;
+  width: 100%;
+  padding: 0 5px 5px 5px;
+}
+
+.inline-mobile,
+.location-phone img,
+#contactContent a {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#contactContainer h2 {
+  font-size: 36px;
+  margin: 0;
+}
+
+#contactContent ul {
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#contactContent li a {
+  text-decoration: none;
+}
+
+#contactContent .social-media li:hover {
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 401px) {
+  #contactContainer {
+    min-height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #contact-head > img.hide-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 451px) {
+  #contactContent ul {
+    display: inline-block;
+    width: 40%;
+    vertical-align: top;
+  }
+
+  #contactContent li {
+    text-align: left;
+    width: 100%;
+    padding: 5px 0;
+  }
+
+  #contactContent img {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  .contact-icon {
+    float: left;
+  }
+
+  #contactContainer {
+    min-height: 100vh;
+    padding: 0 50px;
+  }
+
+  #contact-head {
+    display: block;
+  }
+
+  #contactContent {
+    text-align: start;
+    clear: both;
+  }
+
+  #contactContainer h2 {
+    display: inline-block;
+    text-align: left;
+    float: left;
+    font-size: 42px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 700px) {
+  .location-phone > li {
+    margin-left: 0;
+  }
+
+  #contactContent li {
+    line-height: 2.7;
+    font-size: 20px;
+  }
+}
